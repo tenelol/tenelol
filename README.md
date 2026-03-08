@@ -4,16 +4,14 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=tenelol&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=32&desc=こんにちは%20👋%20Welcome%20to%20my%20profile!&descAlignY=58&descAlign=50" />
 
 <!-- Animated typing -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+🚀;Open+Source+Enthusiast+✨;Building+cool+things+at+tenelol.dev;Always+learning%2C+always+shipping+⚡" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+🚀;Open+Source+Enthusiast+✨;Building+cool+things+at+tenelol.dev;Always+learning%2C+always+shipping+⚡" alt="Typing SVG" />
 
 <br/>
 
 <!-- Social badges -->
 [![Website](https://img.shields.io/badge/🌐_tenelol.dev-7C3AED?style=for-the-badge&logoColor=white)](https://tenelol.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-tenelol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tenelol)
-[![Profile Views](https://komarev.com/ghpvc/?username=tenelol&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)](https://github.com/tenelol)
+![Profile Views](https://komarev.com/ghpvc/?username=tenelol&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)
 
 </div>
 
