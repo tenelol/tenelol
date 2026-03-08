@@ -57,13 +57,13 @@ philosophy: "Übermensch"
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tenelol&theme=tokyonight" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tenelol&theme=radical" />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tenelol&theme=tokyonight" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tenelol&theme=tokyonight" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tenelol&theme=radical" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tenelol&theme=radical" />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tenelol&theme=tokyonight" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tenelol&theme=tokyonight&utcOffset=9" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tenelol&theme=radical" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tenelol&theme=radical&utcOffset=9" />
 
 </div>
 
