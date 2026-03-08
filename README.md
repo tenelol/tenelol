@@ -1,14 +1,14 @@
 <div align="center">
 
-<!-- Animated header wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=tenelol&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=32&desc=こんにちは%20👋%20Welcome%20to%20my%20profile!&descAlignY=58&descAlign=50" />
+<!-- Custom banner -->
+<img width="100%" src="./assets/banner.svg" alt="tenelol banner"/>
 
 <br/>
 
 <!-- Social badges -->
-[![Website](https://img.shields.io/badge/🌐_tenelol.dev-7C3AED?style=for-the-badge&logoColor=white)](https://tenelol.dev)
+[![Website](https://img.shields.io/badge/tenelol.dev-C0392B?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://tenelol.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-tenelol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tenelol)
-![Profile Views](https://komarev.com/ghpvc/?username=tenelol&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=tenelol&style=for-the-badge&color=C0392B&label=PROFILE+VIEWS)
 
 </div>
 
@@ -20,13 +20,11 @@
 name: tenelol
 location: 🇯🇵 Japan
 website: https://tenelol.dev
-OS: NixOS  # btw
+current_focus:
+  - 🔭 Building something awesome
+  - 🌱 Always learning new things
+  - 🎮 Creating fun projects
 philosophy: "Übermensch"
-current:
-  - � tinkering with things that probably don't need tinkering
-  - 🙈 figuring out what I don't know yet
-  - 🖥️ making my machine work exactly the way I want
-works_best: between midnight and 3am
 ```
 
 ---
