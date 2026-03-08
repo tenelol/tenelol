@@ -3,9 +3,6 @@
 <!-- Animated header wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=tenelol&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=32&desc=こんにちは%20👋%20Welcome%20to%20my%20profile!&descAlignY=58&descAlign=50" />
 
-<!-- Subtitle / role line -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=50&text=Full%20Stack%20Developer%20%F0%9F%9A%80%20%7C%20Open%20Source%20Enthusiast%20%E2%9C%A8%20%7C%20Building%20@%20tenelol.dev&fontSize=16&fontColor=fff&animation=fadeIn" width="100%" />
-
 <br/>
 
 <!-- Social badges -->
@@ -23,11 +20,13 @@
 name: tenelol
 location: 🇯🇵 Japan
 website: https://tenelol.dev
-current_focus:
-  - 🔭 Building something awesome
-  - 🌱 Always learning new things
-  - 🎮 Creating fun projects
+OS: NixOS  # btw
 philosophy: "Übermensch"
+current:
+  - � tinkering with things that probably don't need tinkering
+  - 🙈 figuring out what I don't know yet
+  - 🖥️ making my machine work exactly the way I want
+works_best: between midnight and 3am
 ```
 
 ---
@@ -86,14 +85,3 @@ philosophy: "Übermensch"
 
 </div>
 -->
-
----
-
-<div align="center">
-
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
-
-*「最高のものを作ろう」— Let's build something great together!*
-
-</div>
