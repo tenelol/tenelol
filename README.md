@@ -3,8 +3,8 @@
 <!-- Animated header wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=tenelol&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=32&desc=こんにちは%20👋%20Welcome%20to%20my%20profile!&descAlignY=58&descAlign=50" />
 
-<!-- Animated typing -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+🚀;Open+Source+Enthusiast+✨;Building+cool+things+at+tenelol.dev;Always+learning%2C+always+shipping+⚡" alt="Typing SVG" />
+<!-- Subtitle / role line -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=50&text=Full%20Stack%20Developer%20%F0%9F%9A%80%20%7C%20Open%20Source%20Enthusiast%20%E2%9C%A8%20%7C%20Building%20@%20tenelol.dev&fontSize=16&fontColor=fff&animation=fadeIn" width="100%" />
 
 <br/>
 
