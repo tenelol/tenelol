@@ -39,8 +39,6 @@ philosophy: "Übermensch"
 **Languages**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![QML](https://img.shields.io/badge/QML-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![Nix](https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
 
 **Frontend**
@@ -72,7 +70,9 @@ philosophy: "Übermensch"
 
 
 
-## � Contribution Activity
+<!--
+## 🐍 Contribution Activity
+(GitHub Actions の snake.yml を手動実行すると表示されます)
 
 <div align="center">
 
@@ -83,6 +83,7 @@ philosophy: "Übermensch"
 </picture>
 
 </div>
+-->
 
 ---
 
