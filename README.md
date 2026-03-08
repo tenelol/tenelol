@@ -66,10 +66,10 @@ philosophy: "Ship fast. Learn faster."
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=tenelol&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=7C3AED&icon_color=7C3AED&text_color=C9D1D9" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=tenelol&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=tenelol&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=7C3AED&icon_color=7C3AED&text_color=C9D1D9&cache_seconds=21600" />
+<img width="49%" src="https://streak-stats.demolab.com?user=tenelol&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED" />
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tenelol&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0D1117&title_color=7C3AED&text_color=C9D1D9" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tenelol&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0D1117&title_color=7C3AED&text_color=C9D1D9&cache_seconds=21600" />
 
 </div>
 
