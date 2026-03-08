@@ -40,14 +40,14 @@ philosophy: "Übermensch"
 
 **Frontend**
 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-C0392B?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-C0392B?style=for-the-badge&logo=daisyui&logoColor=white)
 
 **Tools & Environment**
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-C0392B?style=for-the-badge&logo=linux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-C0392B?style=for-the-badge&logo=git&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-C0392B?style=for-the-badge&logo=sqlite&logoColor=white)
 
 </div>
 
