@@ -35,8 +35,8 @@ philosophy: "Übermensch"
 
 **Languages**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Nix](https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-C0392B?style=for-the-badge&logo=javascript&logoColor=white)
+![Nix](https://img.shields.io/badge/Nix-C0392B?style=for-the-badge&logo=nixos&logoColor=white)
 
 **Frontend**
 
