@@ -16,16 +16,9 @@
 
 ## `> about_me`
 
-```yaml
-name: tenelol
-location: 🇯🇵 Japan
-website: https://tenelol.dev
-current_focus:
-  - 🔭 Building something awesome
-  - 🌱 Always learning new things
-  - 🎮 Creating fun projects
-philosophy: "Übermensch"
-```
+<div align="center">
+  <img width="800" src="./assets/about-me.svg" alt="About Me"/>
+</div>
 
 <img width="100%" src="./assets/divider.svg"/>
 
