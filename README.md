@@ -66,3 +66,5 @@ philosophy: "Übermensch"
 </div>
 -->
 
+<img width="100%" src="./assets/divider.svg"/>
+
