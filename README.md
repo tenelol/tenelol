@@ -25,23 +25,7 @@
 ## `> tech_stack`
 
 <div align="center">
-
-**Languages**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-C0392B?style=for-the-badge&logo=javascript&logoColor=white)
-![Nix](https://img.shields.io/badge/Nix-C0392B?style=for-the-badge&logo=nixos&logoColor=white)
-
-**Frontend**
-
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-C0392B?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![DaisyUI](https://img.shields.io/badge/DaisyUI-C0392B?style=for-the-badge&logo=daisyui&logoColor=white)
-
-**Tools & Environment**
-
-![Linux](https://img.shields.io/badge/Linux-C0392B?style=for-the-badge&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-C0392B?style=for-the-badge&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-C0392B?style=for-the-badge&logo=sqlite&logoColor=white)
-
+  <img width="800" src="./assets/tech-stack.svg" alt="Tech Stack"/>
 </div>
 
 <!--
