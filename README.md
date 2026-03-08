@@ -51,22 +51,6 @@ philosophy: "Übermensch"
 
 </div>
 
-<img width="100%" src="./assets/divider.svg"/>
-
-## `> github_stats`
-
-<div align="center">
-
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tenelol&theme=radical" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tenelol&theme=radical" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tenelol&theme=radical" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tenelol&theme=radical" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tenelol&theme=radical&utcOffset=9" />
-
-</div>
-
 <!--
 ## 🐍 Contribution Activity
 (GitHub Actions の snake.yml を手動実行すると表示されます)
@@ -81,3 +65,4 @@ philosophy: "Übermensch"
 
 </div>
 -->
+
