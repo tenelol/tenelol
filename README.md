@@ -60,11 +60,13 @@ philosophy: "Übermensch"
 
 <div align="center">
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tenelol&theme=tokyonight" />
-<img width="49%" src="https://streak-stats.demolab.com?user=tenelol&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tenelol&theme=tokyonight" />
 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tenelol&theme=tokyonight" />
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tenelol&theme=tokyonight" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tenelol&theme=tokyonight" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tenelol&theme=tokyonight&utcOffset=9" />
 
 </div>
 
