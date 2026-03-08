@@ -12,9 +12,9 @@
 
 </div>
 
----
+<img width="100%" src="./assets/divider.svg"/>
 
-## 🧑‍💻 About Me
+## `> about_me`
 
 ```yaml
 name: tenelol
@@ -27,9 +27,9 @@ current_focus:
 philosophy: "Übermensch"
 ```
 
----
+<img width="100%" src="./assets/divider.svg"/>
 
-## 🛠️ Tech Stack
+## `> tech_stack`
 
 <div align="center">
 
@@ -51,9 +51,9 @@ philosophy: "Übermensch"
 
 </div>
 
----
+<img width="100%" src="./assets/divider.svg"/>
 
-## 📊 GitHub Stats
+## `> github_stats`
 
 <div align="center">
 
@@ -66,8 +66,6 @@ philosophy: "Übermensch"
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tenelol&theme=tokyonight&utcOffset=9" />
 
 </div>
-
-
 
 <!--
 ## 🐍 Contribution Activity
