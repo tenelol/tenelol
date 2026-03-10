@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" width="820" height="260">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scanlines" width="1" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1" height="2" fill="transparent"/>
+      <rect y="2" width="1" height="2" fill="#000000" opacity="0.08"/>
+    </pattern>
+    <style>
+      @keyframes fadeSlide {
+        from { opacity: 0; transform: translateX(-8px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes blink { 50% { opacity: 0; } }
+
+      .line { opacity: 0; animation: fadeSlide 0.3s ease-out forwards; }
+      .d0 { animation-delay: 0.2s; }
+      .d1 { animation-delay: 0.5s; }
+      .d2 { animation-delay: 0.8s; }
+      .d3 { animation-delay: 1.1s; }
+      .d4 { animation-delay: 1.4s; }
+      .d5 { animation-delay: 1.7s; }
+      .d6 { animation-delay: 2.0s; }
+      .d7 { animation-delay: 2.3s; }
+      .d8 { animation-delay: 2.6s; }
+      .d9 { animation-delay: 2.9s; }
+    </style>
+  </defs>
+
+  <!-- Outer glow border -->
+  <rect x="1" y="1" width="818" height="258" rx="8" fill="none" stroke="#2980B9" stroke-width="1" opacity="0.15">
+    <animate attributeName="stroke-opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main background -->
+  <rect x="3" y="3" width="814" height="254" rx="6" fill="#080B12"/>
+
+  <!-- Header bar -->
+  <rect x="3" y="3" width="814" height="28" rx="6" fill="#0E1219"/>
+  <rect x="3" y="25" width="814" height="6" fill="#0E1219"/>
+  <line x1="3" y1="31" x2="817" y2="31" stroke="#2980B9" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Window buttons -->
+  <circle cx="22" cy="17" r="5" fill="#1a1a2e"/>
+  <circle cx="40" cy="17" r="5" fill="#1a1a2e"/>
+  <circle cx="58" cy="17" r="5" fill="#2980B9" opacity="0.7">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="410" y="21" font-family="'Courier New', monospace" font-size="11" fill="#2980B9" opacity="0.4" text-anchor="middle" letter-spacing="2">tech_stack.sh</text>
+
+  <!-- Line number gutter -->
+  <line x1="44" y1="31" x2="44" y2="257" stroke="#2980B9" stroke-width="0.3" opacity="0.1"/>
+
+  <!-- Line numbers -->
+  <g font-family="'Courier New', monospace" font-size="11" fill="#333844">
+    <text x="18" y="55"  class="line d0" text-anchor="middle">1</text>
+    <text x="18" y="77"  class="line d1" text-anchor="middle">2</text>
+    <text x="18" y="99"  class="line d2" text-anchor="middle">3</text>
+    <text x="18" y="121" class="line d3" text-anchor="middle">4</text>
+    <text x="18" y="143" class="line d4" text-anchor="middle">5</text>
+    <text x="18" y="165" class="line d5" text-anchor="middle">6</text>
+    <text x="18" y="187" class="line d6" text-anchor="middle">7</text>
+    <text x="18" y="209" class="line d7" text-anchor="middle">8</text>
+    <text x="18" y="231" class="line d8" text-anchor="middle">9</text>
+  </g>
+
+  <!-- Content -->
+  <g transform="translate(56, 55)" font-family="'Courier New', monospace" font-size="14">
+
+    <!-- Command -->
+    <text y="0" class="line d0">
+      <tspan fill="#2980B9" filter="url(#glow)">$</tspan>
+      <tspan fill="#607080"> ./show_stack</tspan>
+      <tspan fill="#444c58"> --verbose</tspan>
+    </text>
+
+    <!-- Languages -->
+    <text y="22" class="line d1">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">[languages]</tspan>
+    </text>
+    <text y="44" class="line d2">
+      <tspan fill="#444c58">  ├── </tspan>
+      <tspan fill="#c8ccd4">JavaScript</tspan>
+      <tspan fill="#555b66">  ··· ES6+, DOM, async/await</tspan>
+    </text>
+    <text y="66" class="line d3">
+      <tspan fill="#444c58">  └── </tspan>
+      <tspan fill="#c8ccd4">Nix</tspan>
+      <tspan fill="#555b66">         ··· NixOS, flakes, home-manager</tspan>
+    </text>
+
+    <!-- Frontend -->
+    <text y="88" class="line d4">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">[frontend]</tspan>
+    </text>
+    <text y="110" class="line d5">
+      <tspan fill="#444c58">  ├── </tspan>
+      <tspan fill="#c8ccd4">Tailwind CSS</tspan>
+      <tspan fill="#555b66"> ··· utility-first CSS</tspan>
+    </text>
+    <text y="132" class="line d6">
+      <tspan fill="#444c58">  └── </tspan>
+      <tspan fill="#c8ccd4">DaisyUI</tspan>
+      <tspan fill="#555b66">      ··· component library</tspan>
+    </text>
+
+    <!-- Tools -->
+    <text y="154" class="line d7">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">[tools]</tspan>
+    </text>
+    <text y="176" class="line d8">
+      <tspan fill="#444c58">  ├── </tspan>
+      <tspan fill="#c8ccd4">Linux</tspan>
+      <tspan fill="#555b66">        ··· daily driver (NixOS btw)</tspan>
+    </text>
+    <text y="176" x="440" class="line d9">
+      <tspan fill="#444c58"> ├── </tspan>
+      <tspan fill="#c8ccd4">Git</tspan>
+      <tspan fill="#555b66">  ├── </tspan>
+      <tspan fill="#c8ccd4">SQLite</tspan>
+    </text>
+  </g>
+
+  <!-- Scanline overlay -->
+  <rect x="3" y="31" width="814" height="210" fill="url(#scanlines)"/>
+
+  <!-- Bottom status bar -->
+  <rect x="3" y="241" width="814" height="16" fill="#0A0E15"/>
+  <rect x="3" y="251" width="814" height="6" rx="6" fill="#0A0E15"/>
+  <line x1="3" y1="241" x2="817" y2="241" stroke="#2980B9" stroke-width="0.3" opacity="0.15"/>
+  <text x="16" y="253" font-family="'Courier New', monospace" font-size="10" fill="#2980B9" opacity="0.35">7 packages loaded</text>
+  <text x="800" y="253" font-family="'Courier New', monospace" font-size="10" fill="#2980B9" opacity="0.35" text-anchor="end">exit: 0</text>
+</svg>
