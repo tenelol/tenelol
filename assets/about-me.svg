@@ -1,78 +1,167 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 310" width="820" height="310">
   <defs>
-    <style>
-      .bg { fill: #0d0d0d; }
-      .border { stroke: #222222; stroke-width: 1; }
-      .text-base { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #a0a0a0; }
-      .key { fill: #3498DB; font-weight: bold; }
-      .string { fill: #cccccc; }
+    <!-- Blue neon glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowStrong" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-      @keyframes type {
-        from { width: 0; }
-        to { width: 100%; }
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" width="1" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1" height="2" fill="transparent"/>
+      <rect y="2" width="1" height="2" fill="#000000" opacity="0.08"/>
+    </pattern>
+
+    <style>
+      @keyframes fadeSlide {
+        from { opacity: 0; transform: translateX(-6px); }
+        to   { opacity: 1; transform: translateX(0); }
       }
-      
       @keyframes blink {
+        0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
-
-      @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes borderGlow {
+        0%, 100% { stroke-opacity: 0.3; }
+        50% { stroke-opacity: 0.7; }
       }
 
       .line {
-        overflow: hidden;
-        white-space: nowrap;
         opacity: 0;
-        animation: fadeIn 0.1s forwards;
+        animation: fadeSlide 0.4s ease-out forwards;
       }
-      
-      .l1 { animation-delay: 0.5s; }
-      .l2 { animation-delay: 1.0s; }
-      .l3 { animation-delay: 1.5s; }
+      .l0 { animation-delay: 0.3s; }
+      .l1 { animation-delay: 0.8s; }
+      .l2 { animation-delay: 1.2s; }
+      .l3 { animation-delay: 1.6s; }
       .l4 { animation-delay: 2.0s; }
-      .l5 { animation-delay: 2.5s; }
-      .l6 { animation-delay: 3.0s; }
-      .l7 { animation-delay: 3.5s; }
-      .l8 { animation-delay: 4.0s; }
-      
+      .l5 { animation-delay: 2.4s; }
+      .l6 { animation-delay: 2.8s; }
+      .l7 { animation-delay: 3.2s; }
+      .l8 { animation-delay: 3.6s; }
+      .l9 { animation-delay: 4.0s; }
+
       .cursor {
-        fill: #2980B9;
         opacity: 0;
-        animation: fadeIn 0.1s forwards 4.5s, blink 1s step-start infinite 4.5s;
+        animation: fadeSlide 0.1s forwards 4.4s, blink 0.8s step-end infinite 4.4s;
       }
     </style>
   </defs>
 
-  <!-- Terminal Window Background -->
-  <rect x="0" y="0" width="800" height="240" rx="6" class="bg border"/>
-  
-  <!-- Terminal Header -->
-  <path d="M 0 6 Q 0 0 6 0 L 794 0 Q 800 0 800 6 L 800 24 L 0 24 Z" fill="#151515" class="border"/>
-  
-  <!-- Mac-style buttons but in crimson/grey theme -->
-  <circle cx="20" cy="12" r="5" fill="#333333"/>
-  <circle cx="38" cy="12" r="5" fill="#333333"/>
-  <circle cx="56" cy="12" r="5" fill="#2980B9"/>
-  
-  <text x="400" y="16" font-family="'Courier New', Courier, monospace" font-size="12" fill="#555555" text-anchor="middle">about_me.yml</text>
+  <!-- Outer glow border -->
+  <rect x="1" y="1" width="818" height="308" rx="8" fill="none" stroke="#2980B9" stroke-width="1" opacity="0.2">
+    <animate attributeName="stroke-opacity" values="0.15;0.4;0.15" dur="3s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- YAML Content (Animated line by line) -->
-  <g transform="translate(24, 54)" class="text-base">
-    <!-- Using foreignObject to allow CSS clip/width animation on text, or we can just fade lines in sequence for cross-browser compat -->
-    <text y="0" class="line l1"><tspan class="key">name</tspan>: <tspan class="string">"tenelol"</tspan></text>
-    <text y="24" class="line l2"><tspan class="key">location</tspan>: <tspan class="string">"🇯🇵 Japan"</tspan></text>
-    <text y="48" class="line l3"><tspan class="key">website</tspan>: <tspan class="string">"https://tenelol.dev"</tspan></text>
-    
-    <text y="72" class="line l4"><tspan class="key">current_focus</tspan>:</text>
-    <text y="96" x="16" class="line l5">- <tspan class="string">"🔭 Building something awesome"</tspan></text>
-    <text y="120" x="16" class="line l6">- <tspan class="string">"🌱 Always learning new things"</tspan></text>
-    <text y="144" x="16" class="line l7">- <tspan class="string">"🎮 Creating fun projects"</tspan></text>
-    
-    <text y="168" class="line l8"><tspan class="key">philosophy</tspan>: <tspan class="string">"Übermensch"</tspan></text>
-    
-    <!-- Blinking cursor at the end, appears after last line -->
-    <rect x="230" y="156" width="8" height="15" class="cursor" />
+  <!-- Main background -->
+  <rect x="3" y="3" width="814" height="304" rx="6" fill="#080B12"/>
+
+  <!-- Subtle radial highlight top-left -->
+  <circle cx="100" cy="40" r="160" fill="#2980B9" opacity="0.02"/>
+
+  <!-- Terminal Header Bar -->
+  <rect x="3" y="3" width="814" height="28" rx="6" fill="#0E1219"/>
+  <rect x="3" y="25" width="814" height="6" fill="#0E1219"/>
+  <!-- Header bottom border -->
+  <line x1="3" y1="31" x2="817" y2="31" stroke="#2980B9" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Window buttons -->
+  <circle cx="22" cy="17" r="5" fill="#1a1a2e"/>
+  <circle cx="40" cy="17" r="5" fill="#1a1a2e"/>
+  <circle cx="58" cy="17" r="5" fill="#2980B9" opacity="0.7">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Tab label -->
+  <text x="410" y="21" font-family="'Courier New', Courier, monospace" font-size="11" fill="#2980B9" opacity="0.4" text-anchor="middle" letter-spacing="2">about_me.yml</text>
+
+  <!-- Line numbers gutter -->
+  <line x1="44" y1="31" x2="44" y2="307" stroke="#2980B9" stroke-width="0.3" opacity="0.1"/>
+
+  <g font-family="'Courier New', Courier, monospace" font-size="12" fill="#333844">
+    <text x="18" y="60" class="line l0" text-anchor="middle">1</text>
+    <text x="18" y="84" class="line l1" text-anchor="middle">2</text>
+    <text x="18" y="108" class="line l2" text-anchor="middle">3</text>
+    <text x="18" y="132" class="line l3" text-anchor="middle">4</text>
+    <text x="18" y="156" class="line l4" text-anchor="middle">5</text>
+    <text x="18" y="180" class="line l5" text-anchor="middle">6</text>
+    <text x="18" y="204" class="line l6" text-anchor="middle">7</text>
+    <text x="18" y="228" class="line l7" text-anchor="middle">8</text>
+    <text x="18" y="252" class="line l8" text-anchor="middle">9</text>
   </g>
+
+  <!-- YAML Content -->
+  <g transform="translate(56, 60)" font-family="'Courier New', Courier, monospace" font-size="14">
+
+    <!-- Prompt line -->
+    <text y="0" class="line l0">
+      <tspan fill="#2980B9" filter="url(#glow)">$</tspan>
+      <tspan fill="#607080"> cat</tspan>
+      <tspan fill="#8899aa"> about_me.yml</tspan>
+    </text>
+
+    <text y="24" class="line l1">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">name</tspan><tspan fill="#555b66">:</tspan>
+      <tspan fill="#c8ccd4"> "tenelol"</tspan>
+    </text>
+
+    <text y="48" class="line l2">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">location</tspan><tspan fill="#555b66">:</tspan>
+      <tspan fill="#c8ccd4"> "🇯🇵 Japan"</tspan>
+    </text>
+
+    <text y="72" class="line l3">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">website</tspan><tspan fill="#555b66">:</tspan>
+      <tspan fill="#c8ccd4"> "https://tenelol.dev"</tspan>
+    </text>
+
+    <text y="96" class="line l4">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">current_focus</tspan><tspan fill="#555b66">:</tspan>
+    </text>
+
+    <text y="120" class="line l5">
+      <tspan fill="#555b66">  - </tspan>
+      <tspan fill="#c8ccd4">"🔭 Building something awesome"</tspan>
+    </text>
+
+    <text y="144" class="line l6">
+      <tspan fill="#555b66">  - </tspan>
+      <tspan fill="#c8ccd4">"🌱 Always learning new things"</tspan>
+    </text>
+
+    <text y="168" class="line l7">
+      <tspan fill="#555b66">  - </tspan>
+      <tspan fill="#c8ccd4">"🎮 Creating fun projects"</tspan>
+    </text>
+
+    <text y="192" class="line l8">
+      <tspan fill="#3498DB" filter="url(#glow)" font-weight="bold">philosophy</tspan><tspan fill="#555b66">:</tspan>
+      <tspan fill="#ffffff" font-weight="bold" filter="url(#glowStrong)"> "Übermensch"</tspan>
+    </text>
+
+    <!-- Blinking cursor -->
+    <rect x="0" y="212" width="9" height="16" rx="1" fill="#2980B9" class="cursor" filter="url(#glow)"/>
+  </g>
+
+  <!-- Scanline overlay -->
+  <rect x="3" y="31" width="814" height="276" fill="url(#scanlines)" rx="0"/>
+
+  <!-- Bottom status bar -->
+  <rect x="3" y="290" width="814" height="17" rx="0" fill="#0A0E15"/>
+  <rect x="3" y="301" width="814" height="6" rx="6" fill="#0A0E15"/>
+  <line x1="3" y1="290" x2="817" y2="290" stroke="#2980B9" stroke-width="0.3" opacity="0.15"/>
+  <text x="16" y="302" font-family="'Courier New', monospace" font-size="10" fill="#2980B9" opacity="0.35">UTF-8</text>
+  <text x="410" y="302" font-family="'Courier New', monospace" font-size="10" fill="#2980B9" opacity="0.35" text-anchor="middle">YAML</text>
+  <text x="800" y="302" font-family="'Courier New', monospace" font-size="10" fill="#2980B9" opacity="0.35" text-anchor="end">LF · 9 lines</text>
 </svg>
