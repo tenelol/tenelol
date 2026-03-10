@@ -4,7 +4,7 @@
       .bg { fill: #0d0d0d; }
       .border { stroke: #222222; stroke-width: 1; }
       .text-base { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #a0a0a0; }
-      .key { fill: #E74C3C; font-weight: bold; }
+      .key { fill: #3498DB; font-weight: bold; }
       .string { fill: #cccccc; }
 
       @keyframes type {
@@ -38,7 +38,7 @@
       .l8 { animation-delay: 4.0s; }
       
       .cursor {
-        fill: #C0392B;
+        fill: #2980B9;
         opacity: 0;
         animation: fadeIn 0.1s forwards 4.5s, blink 1s step-start infinite 4.5s;
       }
@@ -54,7 +54,7 @@
   <!-- Mac-style buttons but in crimson/grey theme -->
   <circle cx="20" cy="12" r="5" fill="#333333"/>
   <circle cx="38" cy="12" r="5" fill="#333333"/>
-  <circle cx="56" cy="12" r="5" fill="#C0392B"/>
+  <circle cx="56" cy="12" r="5" fill="#2980B9"/>
   
   <text x="400" y="16" font-family="'Courier New', Courier, monospace" font-size="12" fill="#555555" text-anchor="middle">about_me.yml</text>
 
