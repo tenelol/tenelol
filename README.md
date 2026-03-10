@@ -14,18 +14,26 @@
 
 <img width="100%" src="./assets/divider.svg"/>
 
-## `> about_me`
-
-<div align="center">
-  <img width="820" src="./assets/about-me.svg" alt="About Me"/>
-</div>
-
-<img width="100%" src="./assets/divider.svg"/>
-
 ## `> tech_stack`
 
 <div align="center">
-  <img width="820" src="./assets/tech-stack.svg" alt="Tech Stack"/>
+
+**Languages**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-1C1C1E?style=for-the-badge&logo=javascript&logoColor=2980B9)
+![Nix](https://img.shields.io/badge/Nix-1C1C1E?style=for-the-badge&logo=nixos&logoColor=2980B9)
+
+**Frontend**
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1C1C1E?style=for-the-badge&logo=tailwind-css&logoColor=2980B9)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-1C1C1E?style=for-the-badge&logo=daisyui&logoColor=2980B9)
+
+**Tools & Environment**
+
+![Linux](https://img.shields.io/badge/Linux-1C1C1E?style=for-the-badge&logo=linux&logoColor=2980B9)
+![Git](https://img.shields.io/badge/Git-1C1C1E?style=for-the-badge&logo=git&logoColor=2980B9)
+![SQLite](https://img.shields.io/badge/SQLite-1C1C1E?style=for-the-badge&logo=sqlite&logoColor=2980B9)
+
 </div>
 
 <!--
