@@ -21,12 +21,10 @@
 **Languages**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-1C1C1E?style=for-the-badge&logo=javascript&logoColor=2980B9)
+![TypeScript](https://img.shields.io/badge/TypeScript-1C1C1E?style=for-the-badge&logo=typescript&logoColor=2980B9)
+![Python](https://img.shields.io/badge/Python-1C1C1E?style=for-the-badge&logo=python&logoColor=2980B9)
+![C](https://img.shields.io/badge/C-1C1C1E?style=for-the-badge&logo=c&logoColor=2980B9)
 ![Nix](https://img.shields.io/badge/Nix-1C1C1E?style=for-the-badge&logo=nixos&logoColor=2980B9)
-
-**Frontend**
-
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1C1C1E?style=for-the-badge&logo=tailwind-css&logoColor=2980B9)
-![DaisyUI](https://img.shields.io/badge/DaisyUI-1C1C1E?style=for-the-badge&logo=daisyui&logoColor=2980B9)
 
 **Tools & Environment**
 
