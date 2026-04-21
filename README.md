@@ -35,15 +35,12 @@ I build web products end-to-end with a backend-oriented mindset, and I care abou
 
 <div align="center">
 
-**Primary**
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-1C1C1E?style=for-the-badge&logo=typescript&logoColor=2980B9)
 ![Python](https://img.shields.io/badge/Python-1C1C1E?style=for-the-badge&logo=python&logoColor=2980B9)
 ![Nix](https://img.shields.io/badge/Nix-1C1C1E?style=for-the-badge&logo=nixos&logoColor=2980B9)
-
-**Exploring**
-
 ![C](https://img.shields.io/badge/C-1C1C1E?style=for-the-badge&logo=c&logoColor=2980B9)
+![Codex](https://img.shields.io/badge/Codex-1C1C1E?style=for-the-badge&logoColor=2980B9)
+![Claude%20Code](https://img.shields.io/badge/Claude_Code-1C1C1E?style=for-the-badge&logoColor=2980B9)
 
 </div>
 
