@@ -9,9 +9,9 @@
 [![Website](https://img.shields.io/badge/tenelol.dev-2980B9?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://tenelol.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-tenelol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tenelol)
 
-**Full-stack engineer with a backend focus, exploring Nix, reliable tooling, and low-level systems.**
+**Full-stack engineer with a backend focus, interested in Nix, infrastructure, and developer tooling.**
 
-I build practical software with a focus on backend development, reproducible environments, and simple implementations that hold up in real use.
+I build web products end-to-end with a backend-oriented mindset, and I care about reproducible environments, practical architecture, and fast iteration.
 
 </div>
 
@@ -19,15 +19,15 @@ I build practical software with a focus on backend development, reproducible env
 
 ## `> profile`
 
-- Full-stack engineer with a backend focus and a strong interest in Nix and developer tooling.
-- Currently exploring lower-level systems while keeping day-to-day work grounded in practical backend engineering.
-- I prefer clear architecture, reproducible setups, and maintainable code over unnecessary complexity.
+- Full-stack engineer with a backend focus, looking for internship opportunities where I can build and ship real products.
+- Interested in Nix, Linux, infrastructure, and developer tooling alongside day-to-day product development.
+- I prefer clear architecture, reproducible setups, and maintainable implementations, and I use AI-assisted workflows when they help me move faster.
 
 ## `> focus`
 
 <div align="center">
 
-`Full-stack` `Backend Engineering` `Nix` `Low-level Systems`
+`Full-stack` `Backend Engineering` `Nix` `Infrastructure`
 
 </div>
 
@@ -35,12 +35,15 @@ I build practical software with a focus on backend development, reproducible env
 
 <div align="center">
 
-**Core**
+**Primary**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-1C1C1E?style=for-the-badge&logo=typescript&logoColor=2980B9)
 ![Python](https://img.shields.io/badge/Python-1C1C1E?style=for-the-badge&logo=python&logoColor=2980B9)
-![C](https://img.shields.io/badge/C-1C1C1E?style=for-the-badge&logo=c&logoColor=2980B9)
 ![Nix](https://img.shields.io/badge/Nix-1C1C1E?style=for-the-badge&logo=nixos&logoColor=2980B9)
+
+**Exploring**
+
+![C](https://img.shields.io/badge/C-1C1C1E?style=for-the-badge&logo=c&logoColor=2980B9)
 
 </div>
 
