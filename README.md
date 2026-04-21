@@ -9,7 +9,7 @@
 [![Website](https://img.shields.io/badge/tenelol.dev-2980B9?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://tenelol.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-tenelol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tenelol)
 
-**Backend-oriented developer exploring Nix, reliable tooling, and low-level systems.**
+**Full-stack engineer with a backend focus, exploring Nix, reliable tooling, and low-level systems.**
 
 I build practical software with a focus on backend development, reproducible environments, and simple implementations that hold up in real use.
 
@@ -19,7 +19,7 @@ I build practical software with a focus on backend development, reproducible env
 
 ## `> profile`
 
-- Backend-focused developer with a strong interest in Nix and developer tooling.
+- Full-stack engineer with a backend focus and a strong interest in Nix and developer tooling.
 - Currently exploring lower-level systems while keeping day-to-day work grounded in practical backend engineering.
 - I prefer clear architecture, reproducible setups, and maintainable code over unnecessary complexity.
 
@@ -27,7 +27,7 @@ I build practical software with a focus on backend development, reproducible env
 
 <div align="center">
 
-`Backend Engineering` `Nix` `Developer Tooling` `Low-level Systems`
+`Full-stack` `Backend Engineering` `Nix` `Low-level Systems`
 
 </div>
 
@@ -41,12 +41,6 @@ I build practical software with a focus on backend development, reproducible env
 ![Python](https://img.shields.io/badge/Python-1C1C1E?style=for-the-badge&logo=python&logoColor=2980B9)
 ![C](https://img.shields.io/badge/C-1C1C1E?style=for-the-badge&logo=c&logoColor=2980B9)
 ![Nix](https://img.shields.io/badge/Nix-1C1C1E?style=for-the-badge&logo=nixos&logoColor=2980B9)
-
-**Tools & Environment**
-
-![Linux](https://img.shields.io/badge/Linux-1C1C1E?style=for-the-badge&logo=linux&logoColor=2980B9)
-![Git](https://img.shields.io/badge/Git-1C1C1E?style=for-the-badge&logo=git&logoColor=2980B9)
-![SQLite](https://img.shields.io/badge/SQLite-1C1C1E?style=for-the-badge&logo=sqlite&logoColor=2980B9)
 
 </div>
 
