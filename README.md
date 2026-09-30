@@ -1,48 +1,25 @@
-<div align="center">
+**Fullstack Engineer**
 
-<!-- Custom banner -->
-<img width="100%" src="./assets/banner.svg" alt="tenelol banner"/>
+I build web applications and systems that integrate RAG and AI agents, working across frontend and backend with TypeScript and Python.
 
-<br/>
-
-<!-- Social badges -->
-[![Website](https://img.shields.io/badge/tenelol.dev-2980B9?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://tenelol.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-tenelol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tenelol)
-
-**Full-stack engineer with a backend focus, interested in Nix, infrastructure, and developer tooling.**
-
-I build web products end-to-end with a backend-oriented mindset, and I care about reproducible environments, practical architecture, and fast iteration.
-
-</div>
+[Portfolio](https://me.tenelol.dev)
 
 <img width="100%" src="./assets/divider.svg"/>
 
 ## `> profile`
 
-- Full-stack engineer with a backend focus, looking for internship opportunities where I can build and ship real products.
-- Interested in Nix, Linux, infrastructure, and developer tooling alongside day-to-day product development.
-- I prefer clear architecture, reproducible setups, and maintainable implementations, and I use AI-assisted workflows when they help me move faster.
-
-## `> focus`
-
-<div align="center">
-
-`Full-stack` `Backend Engineering` `Nix` `Infrastructure`
-
-</div>
+- I work on web applications and AI-powered systems through contract development and internships, using React, NestJS, and FastAPI.
+- I'm studying information technology at Toyo University. During my internship, I'm also learning effective ways to use AI and explain those workflows to others.
+- Outside work, I explore Linux and infrastructure: running an on-premises server with Proxmox VE and managing reproducible development environments with Nix and Home Manager.
 
 ## `> tech_stack`
 
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-1C1C1E?style=for-the-badge&logo=typescript&logoColor=2980B9)
-![Python](https://img.shields.io/badge/Python-1C1C1E?style=for-the-badge&logo=python&logoColor=2980B9)
-![Nix](https://img.shields.io/badge/Nix-1C1C1E?style=for-the-badge&logo=nixos&logoColor=2980B9)
-![C](https://img.shields.io/badge/C-1C1C1E?style=for-the-badge&logo=c&logoColor=2980B9)
-![Codex](https://img.shields.io/badge/Codex-1C1C1E?style=for-the-badge&logoColor=2980B9)
-![Claude%20Code](https://img.shields.io/badge/Claude_Code-1C1C1E?style=for-the-badge&logoColor=2980B9)
-
-</div>
+| Area | Technologies I've used |
+| --- | --- |
+| Web Development | TypeScript, JavaScript, React, Vite, Astro, Tailwind CSS, daisyUI, Zod, NestJS, FastAPI, Python, MySQL, MariaDB, HTML, CSS |
+| AI | Python, RAG, Codex, Claude, pi |
+| Infrastructure | AWS, Proxmox VE, Docker, Cloudflare, Tailscale, cloud-init, nginx, Apache |
+| Linux / Environment | Arch Linux, NixOS, Nix, Home Manager, Neovim, Hyprland, niri, Zorin OS, Ubuntu, Waybar, fish, dotfiles |
 
 <!--
 ## 🐍 Contribution Activity
